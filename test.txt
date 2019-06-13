@@ -1,0 +1,1 @@
+select [jcr:path], [jcr:score], * from [slingevent:Job] as a where [event.job.topic] = 'scom/day/cq/replication/job/flush' and [slingevent:finishedState] is null order by [slingevent:created]

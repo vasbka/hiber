@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="9" failures="2" name="com.cdp.honcharenko.m3.hw4.service.impl.EmployeeServiceTest" time="5.105" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Vasyl_Honcharenko\Desktop\HW4"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Vasyl_Honcharenko\Desktop\HW4"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\VASYL_~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\maven\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\HashiCorp\Vagrant\bin;%JAVA_HOME%\bin;C:\Program Files\nodejs\;C:\Program Files\maven\bin;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;%CURL_HOME%\bin;%POSTGRESQL_CONSOLE_HOME%;C:\Program Files\Microsoft Windows Performance Toolkit\;C:\Program Files\MongoDB\Server\4.0\bin;D:\CTC\MQ Explorer;C:\Users\Vasyl_Honcharenko\Desktop\paths;C:\Users\Vasyl_Honcharenko\AppData\Local\Google\Chrome\Application;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;."/>
+    <property name="maven.conf" value="C:\Program Files\maven\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\maven\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Vasyl_Honcharenko"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="user.name" value="Vasyl_Honcharenko"/>
+    <property name="java.class.path" value="C:\Program Files\maven\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp866"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\maven\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp866"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.cdp.honcharenko.m3.hw4.service.impl.EmployeeServiceTest" name="testDeleteEmployee" time="1.123"/>
+  <testcase classname="com.cdp.honcharenko.m3.hw4.service.impl.EmployeeServiceTest" name="testQueryCacheFindById" time="0.403"/>
+  <testcase classname="com.cdp.honcharenko.m3.hw4.service.impl.EmployeeServiceTest" name="testGetAllQa" time="0.401"/>
+  <testcase classname="com.cdp.honcharenko.m3.hw4.service.impl.EmployeeServiceTest" name="testAssignToProject" time="0.498"/>
+  <testcase classname="com.cdp.honcharenko.m3.hw4.service.impl.EmployeeServiceTest" name="testChangeUnitForEmployee" time="0.586"/>
+  <testcase classname="com.cdp.honcharenko.m3.hw4.service.impl.EmployeeServiceTest" name="testUpdateEmployee" time="0.411"/>
+  <testcase classname="com.cdp.honcharenko.m3.hw4.service.impl.EmployeeServiceTest" name="testCreateEmployee" time="0.749">
+    <failure message="expected:&lt;2&gt; but was:&lt;4&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;2&gt; but was:&lt;4&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.cdp.honcharenko.m3.hw4.service.impl.EmployeeServiceTest.testCreateEmployee(EmployeeServiceTest.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Hibernate: insert into personalInfo (firstName, lastName) values (?, ?)
+Hibernate: select currval(&apos;personalInfo_id_seq&apos;)
+Hibernate: select unit0_.id as id1_4_, unit0_.name as name2_4_ from unit unit0_ where unit0_.id=1
+Hibernate: select project0_.id as id1_3_, project0_.name as name2_3_ from project project0_ where project0_.id=1
+Hibernate: select employee0_.projectId as projectI2_1_0_, employee0_.employeeId as employee1_1_0_, employee1_.id as id2_0_1_, employee1_.city as city3_0_1_, employee1_.houseNumber as houseNum4_0_1_, employee1_.street as street5_0_1_, employee1_.personalInfoId as personal7_0_1_, employee1_.status as status6_0_1_, employee1_.unitId as unitId8_0_1_, employee1_.typePosition as typePosi1_0_1_, personalin2_.id as id1_2_2_, personalin2_.firstName as firstNam2_2_2_, personalin2_.lastName as lastName3_2_2_, employee3_.id as id2_0_3_, employee3_.city as city3_0_3_, employee3_.houseNumber as houseNum4_0_3_, employee3_.street as street5_0_3_, employee3_.personalInfoId as personal7_0_3_, employee3_.status as status6_0_3_, employee3_.unitId as unitId8_0_3_, employee3_.typePosition as typePosi1_0_3_, unit4_.id as id1_4_4_, unit4_.name as name2_4_4_ from employeeProject employee0_ inner join employee employee1_ on employee0_.employeeId=employee1_.id left outer join personalInfo personalin2_ on employee1_.personalInfoId=personalin2_.id left outer join employee employee3_ on personalin2_.id=employee3_.id left outer join unit unit4_ on employee3_.unitId=unit4_.id where employee0_.projectId=?
+Hibernate: select projects0_.employeeId as employee1_1_0_, projects0_.projectId as projectI2_1_0_, project1_.id as id1_3_1_, project1_.name as name2_3_1_ from employeeProject projects0_ inner join project project1_ on projects0_.projectId=project1_.id where projects0_.employeeId=?
+Hibernate: select projects0_.employeeId as employee1_1_0_, projects0_.projectId as projectI2_1_0_, project1_.id as id1_3_1_, project1_.name as name2_3_1_ from employeeProject projects0_ inner join project project1_ on projects0_.projectId=project1_.id where projects0_.employeeId=?
+Hibernate: select projects0_.employeeId as employee1_1_0_, projects0_.projectId as projectI2_1_0_, project1_.id as id1_3_1_, project1_.name as name2_3_1_ from employeeProject projects0_ inner join project project1_ on projects0_.projectId=project1_.id where projects0_.employeeId=?
+Hibernate: select employee0_.projectId as projectI2_1_0_, employee0_.employeeId as employee1_1_0_, employee1_.id as id2_0_1_, employee1_.city as city3_0_1_, employee1_.houseNumber as houseNum4_0_1_, employee1_.street as street5_0_1_, employee1_.personalInfoId as personal7_0_1_, employee1_.status as status6_0_1_, employee1_.unitId as unitId8_0_1_, employee1_.typePosition as typePosi1_0_1_, personalin2_.id as id1_2_2_, personalin2_.firstName as firstNam2_2_2_, personalin2_.lastName as lastName3_2_2_, employee3_.id as id2_0_3_, employee3_.city as city3_0_3_, employee3_.houseNumber as houseNum4_0_3_, employee3_.street as street5_0_3_, employee3_.personalInfoId as personal7_0_3_, employee3_.status as status6_0_3_, employee3_.unitId as unitId8_0_3_, employee3_.typePosition as typePosi1_0_3_, unit4_.id as id1_4_4_, unit4_.name as name2_4_4_ from employeeProject employee0_ inner join employee employee1_ on employee0_.employeeId=employee1_.id left outer join personalInfo personalin2_ on employee1_.personalInfoId=personalin2_.id left outer join employee employee3_ on personalin2_.id=employee3_.id left outer join unit unit4_ on employee3_.unitId=unit4_.id where employee0_.projectId=?
+Hibernate: select projects0_.employeeId as employee1_1_0_, projects0_.projectId as projectI2_1_0_, project1_.id as id1_3_1_, project1_.name as name2_3_1_ from employeeProject projects0_ inner join project project1_ on projects0_.projectId=project1_.id where projects0_.employeeId=?
+Hibernate: select employee0_.id as id2_0_, employee0_.city as city3_0_, employee0_.houseNumber as houseNum4_0_, employee0_.street as street5_0_, employee0_.personalInfoId as personal7_0_, employee0_.status as status6_0_, employee0_.unitId as unitId8_0_, employee0_.typePosition as typePosi1_0_ from employee employee0_
+Hibernate: select personalin0_.id as id1_2_0_, personalin0_.firstName as firstNam2_2_0_, personalin0_.lastName as lastName3_2_0_ from personalInfo personalin0_ where personalin0_.id=?
+Hibernate: select unit0_.id as id1_4_0_, unit0_.name as name2_4_0_ from unit unit0_ where unit0_.id=?
+Hibernate: select personalin0_.id as id1_2_0_, personalin0_.firstName as firstNam2_2_0_, personalin0_.lastName as lastName3_2_0_ from personalInfo personalin0_ where personalin0_.id=?
+Hibernate: select unit0_.id as id1_4_0_, unit0_.name as name2_4_0_ from unit unit0_ where unit0_.id=?
+Hibernate: select personalin0_.id as id1_2_0_, personalin0_.firstName as firstNam2_2_0_, personalin0_.lastName as lastName3_2_0_ from personalInfo personalin0_ where personalin0_.id=?
+Hibernate: select personalin0_.id as id1_2_0_, personalin0_.firstName as firstNam2_2_0_, personalin0_.lastName as lastName3_2_0_ from personalInfo personalin0_ where personalin0_.id=?
+Hibernate: select projects0_.employeeId as employee1_1_0_, projects0_.projectId as projectI2_1_0_, project1_.id as id1_3_1_, project1_.name as name2_3_1_ from employeeProject projects0_ inner join project project1_ on projects0_.projectId=project1_.id where projects0_.employeeId=?
+Hibernate: select employee0_.projectId as projectI2_1_0_, employee0_.employeeId as employee1_1_0_, employee1_.id as id2_0_1_, employee1_.city as city3_0_1_, employee1_.houseNumber as houseNum4_0_1_, employee1_.street as street5_0_1_, employee1_.personalInfoId as personal7_0_1_, employee1_.status as status6_0_1_, employee1_.unitId as unitId8_0_1_, employee1_.typePosition as typePosi1_0_1_, personalin2_.id as id1_2_2_, personalin2_.firstName as firstNam2_2_2_, personalin2_.lastName as lastName3_2_2_, employee3_.id as id2_0_3_, employee3_.city as city3_0_3_, employee3_.houseNumber as houseNum4_0_3_, employee3_.street as street5_0_3_, employee3_.personalInfoId as personal7_0_3_, employee3_.status as status6_0_3_, employee3_.unitId as unitId8_0_3_, employee3_.typePosition as typePosi1_0_3_, unit4_.id as id1_4_4_, unit4_.name as name2_4_4_ from employeeProject employee0_ inner join employee employee1_ on employee0_.employeeId=employee1_.id left outer join personalInfo personalin2_ on employee1_.personalInfoId=personalin2_.id left outer join employee employee3_ on personalin2_.id=employee3_.id left outer join unit unit4_ on employee3_.unitId=unit4_.id where employee0_.projectId=?
+Hibernate: select projects0_.employeeId as employee1_1_0_, projects0_.projectId as projectI2_1_0_, project1_.id as id1_3_1_, project1_.name as name2_3_1_ from employeeProject projects0_ inner join project project1_ on projects0_.projectId=project1_.id where projects0_.employeeId=?
+Hibernate: select projects0_.employeeId as employee1_1_0_, projects0_.projectId as projectI2_1_0_, project1_.id as id1_3_1_, project1_.name as name2_3_1_ from employeeProject projects0_ inner join project project1_ on projects0_.projectId=project1_.id where projects0_.employeeId=?
+Hibernate: select employee0_.projectId as projectI2_1_0_, employee0_.employeeId as employee1_1_0_, employee1_.id as id2_0_1_, employee1_.city as city3_0_1_, employee1_.houseNumber as houseNum4_0_1_, employee1_.street as street5_0_1_, employee1_.personalInfoId as personal7_0_1_, employee1_.status as status6_0_1_, employee1_.unitId as unitId8_0_1_, employee1_.typePosition as typePosi1_0_1_, personalin2_.id as id1_2_2_, personalin2_.firstName as firstNam2_2_2_, personalin2_.lastName as lastName3_2_2_, employee3_.id as id2_0_3_, employee3_.city as city3_0_3_, employee3_.houseNumber as houseNum4_0_3_, employee3_.street as street5_0_3_, employee3_.personalInfoId as personal7_0_3_, employee3_.status as status6_0_3_, employee3_.unitId as unitId8_0_3_, employee3_.typePosition as typePosi1_0_3_, unit4_.id as id1_4_4_, unit4_.name as name2_4_4_ from employeeProject employee0_ inner join employee employee1_ on employee0_.employeeId=employee1_.id left outer join personalInfo personalin2_ on employee1_.personalInfoId=personalin2_.id left outer join employee employee3_ on personalin2_.id=employee3_.id left outer join unit unit4_ on employee3_.unitId=unit4_.id where employee0_.projectId=?
+Hibernate: select projects0_.employeeId as employee1_1_0_, projects0_.projectId as projectI2_1_0_, project1_.id as id1_3_1_, project1_.name as name2_3_1_ from employeeProject projects0_ inner join project project1_ on projects0_.projectId=project1_.id where projects0_.employeeId=?
+</system-out>
+    <system-err>Jun 10, 2019 10:16:33 PM org.hibernate.engine.internal.StatisticalLoggingSessionEventListener end
+INFO: Session Metrics {
+    13900 nanoseconds spent acquiring 1 JDBC connections;
+    17500 nanoseconds spent releasing 1 JDBC connections;
+    60402 nanoseconds spent preparing 2 JDBC statements;
+    622399 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    597100 nanoseconds spent performing 2 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    102801 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+Jun 10, 2019 10:16:33 PM org.hibernate.engine.internal.StatisticalLoggingSessionEventListener end
+INFO: Session Metrics {
+    13200 nanoseconds spent acquiring 1 JDBC connections;
+    14400 nanoseconds spent releasing 1 JDBC connections;
+    35401 nanoseconds spent preparing 1 JDBC statements;
+    430500 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    810100 nanoseconds spent performing 1 L2C puts;
+    51099 nanoseconds spent performing 2 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    262299 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 1 collections);
+    7299 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+Jun 10, 2019 10:16:33 PM org.hibernate.engine.internal.StatisticalLoggingSessionEventListener end
+INFO: Session Metrics {
+    13301 nanoseconds spent acquiring 1 JDBC connections;
+    13300 nanoseconds spent releasing 1 JDBC connections;
+    450100 nanoseconds spent preparing 7 JDBC statements;
+    4739900 nanoseconds spent executing 7 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    881400 nanoseconds spent performing 1 L2C puts;
+    38698 nanoseconds spent performing 2 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    873701 nanoseconds spent executing 1 flushes (flushing a total of 12 entities and 8 collections);
+    4601 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+Jun 10, 2019 10:16:33 PM org.hibernate.engine.internal.StatisticalLoggingSessionEventListener end
+INFO: Session Metrics {
+    11601 nanoseconds spent acquiring 1 JDBC connections;
+    12700 nanoseconds spent releasing 1 JDBC connections;
+    548000 nanoseconds spent preparing 13 JDBC statements;
+    6687200 nanoseconds spent executing 13 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    835101 nanoseconds spent executing 1 flushes (flushing a total of 12 entities and 8 collections);
+    4099 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+</system-err>
+  </testcase>
+  <testcase classname="com.cdp.honcharenko.m3.hw4.service.impl.EmployeeServiceTest" name="testGetAllDev" time="0.426"/>
+  <testcase classname="com.cdp.honcharenko.m3.hw4.service.impl.EmployeeServiceTest" name="testAssignToSameWhichAlreadyAssigned" time="0.508">
+    <failure message="expected:&lt;1&gt; but was:&lt;2&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;2&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.cdp.honcharenko.m3.hw4.service.impl.EmployeeServiceTest.testAssignToSameWhichAlreadyAssigned(EmployeeServiceTest.java:152)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Hibernate: select employee0_.id as id2_0_, employee0_.city as city3_0_, employee0_.houseNumber as houseNum4_0_, employee0_.street as street5_0_, employee0_.personalInfoId as personal7_0_, employee0_.status as status6_0_, employee0_.unitId as unitId8_0_, employee0_.typePosition as typePosi1_0_ from employee employee0_ where employee0_.id=1
+Hibernate: select personalin0_.id as id1_2_0_, personalin0_.firstName as firstNam2_2_0_, personalin0_.lastName as lastName3_2_0_ from personalInfo personalin0_ where personalin0_.id=?
+Hibernate: select unit0_.id as id1_4_0_, unit0_.name as name2_4_0_ from unit unit0_ where unit0_.id=?
+Hibernate: select projects0_.employeeId as employee1_1_0_, projects0_.projectId as projectI2_1_0_, project1_.id as id1_3_1_, project1_.name as name2_3_1_ from employeeProject projects0_ inner join project project1_ on projects0_.projectId=project1_.id where projects0_.employeeId=?
+Hibernate: select employee0_.projectId as projectI2_1_0_, employee0_.employeeId as employee1_1_0_, employee1_.id as id2_0_1_, employee1_.city as city3_0_1_, employee1_.houseNumber as houseNum4_0_1_, employee1_.street as street5_0_1_, employee1_.personalInfoId as personal7_0_1_, employee1_.status as status6_0_1_, employee1_.unitId as unitId8_0_1_, employee1_.typePosition as typePosi1_0_1_, personalin2_.id as id1_2_2_, personalin2_.firstName as firstNam2_2_2_, personalin2_.lastName as lastName3_2_2_, employee3_.id as id2_0_3_, employee3_.city as city3_0_3_, employee3_.houseNumber as houseNum4_0_3_, employee3_.street as street5_0_3_, employee3_.personalInfoId as personal7_0_3_, employee3_.status as status6_0_3_, employee3_.unitId as unitId8_0_3_, employee3_.typePosition as typePosi1_0_3_, unit4_.id as id1_4_4_, unit4_.name as name2_4_4_ from employeeProject employee0_ inner join employee employee1_ on employee0_.employeeId=employee1_.id left outer join personalInfo personalin2_ on employee1_.personalInfoId=personalin2_.id left outer join employee employee3_ on personalin2_.id=employee3_.id left outer join unit unit4_ on employee3_.unitId=unit4_.id where employee0_.projectId=?
+Hibernate: select projects0_.employeeId as employee1_1_0_, projects0_.projectId as projectI2_1_0_, project1_.id as id1_3_1_, project1_.name as name2_3_1_ from employeeProject projects0_ inner join project project1_ on projects0_.projectId=project1_.id where projects0_.employeeId=?
+Hibernate: select projects0_.employeeId as employee1_1_0_, projects0_.projectId as projectI2_1_0_, project1_.id as id1_3_1_, project1_.name as name2_3_1_ from employeeProject projects0_ inner join project project1_ on projects0_.projectId=project1_.id where projects0_.employeeId=?
+Hibernate: select employee0_.projectId as projectI2_1_0_, employee0_.employeeId as employee1_1_0_, employee1_.id as id2_0_1_, employee1_.city as city3_0_1_, employee1_.houseNumber as houseNum4_0_1_, employee1_.street as street5_0_1_, employee1_.personalInfoId as personal7_0_1_, employee1_.status as status6_0_1_, employee1_.unitId as unitId8_0_1_, employee1_.typePosition as typePosi1_0_1_, personalin2_.id as id1_2_2_, personalin2_.firstName as firstNam2_2_2_, personalin2_.lastName as lastName3_2_2_, employee3_.id as id2_0_3_, employee3_.city as city3_0_3_, employee3_.houseNumber as houseNum4_0_3_, employee3_.street as street5_0_3_, employee3_.personalInfoId as personal7_0_3_, employee3_.status as status6_0_3_, employee3_.unitId as unitId8_0_3_, employee3_.typePosition as typePosi1_0_3_, unit4_.id as id1_4_4_, unit4_.name as name2_4_4_ from employeeProject employee0_ inner join employee employee1_ on employee0_.employeeId=employee1_.id left outer join personalInfo personalin2_ on employee1_.personalInfoId=personalin2_.id left outer join employee employee3_ on personalin2_.id=employee3_.id left outer join unit unit4_ on employee3_.unitId=unit4_.id where employee0_.projectId=?
+Hibernate: select projects0_.employeeId as employee1_1_0_, projects0_.projectId as projectI2_1_0_, project1_.id as id1_3_1_, project1_.name as name2_3_1_ from employeeProject projects0_ inner join project project1_ on projects0_.projectId=project1_.id where projects0_.employeeId=?
+</system-out>
+    <system-err>Jun 10, 2019 10:16:34 PM org.hibernate.engine.internal.StatisticalLoggingSessionEventListener end
+INFO: Session Metrics {
+    20700 nanoseconds spent acquiring 1 JDBC connections;
+    16600 nanoseconds spent releasing 1 JDBC connections;
+    404202 nanoseconds spent preparing 9 JDBC statements;
+    5739699 nanoseconds spent executing 9 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    1007800 nanoseconds spent performing 1 L2C puts;
+    64301 nanoseconds spent performing 2 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    775801 nanoseconds spent executing 1 flushes (flushing a total of 12 entities and 8 collections);
+    7601 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+</system-err>
+  </testcase>
+</testsuite>
